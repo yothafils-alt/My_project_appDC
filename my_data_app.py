@@ -33,10 +33,10 @@ st.markdown('''<style> .stButton>button {
 
           
 # Charger les données 
-load_(pd.read_csv('data/coinafrique_animaux.csv'), 'Chiens data 1', '1')
-load_(pd.read_csv('data/coinafrique_animaux_moutons.csv'), 'Moutons data 2', '2')
-load_(pd.read_csv('data/coinafrique_animaux_poules_lapins_pigeons.csv'), 'poules lapins pigeons data 3', '3')
-load_(pd.read_csv('data/coinafrique_animaux_autres_animaux.csv'), 'Autres animaux 4', '4')
+load_(pd.read_csv('Data/coinafrique_animaux.csv'), 'Chiens data 1', '1')
+load_(pd.read_csv('Data/coinafrique_animaux_moutons.csv'), 'Moutons data 2', '2')
+load_(pd.read_csv('Data/coinafrique_animaux_poules_lapins_pigeons.csv'), 'poules lapins pigeons data 3', '3')
+load_(pd.read_csv('Data/coinafrique_animaux_autres_animaux.csv'), 'Autres animaux 4', '4')
 
 st.markdown("### 💬 Participez à l’évaluation de l’application")
 st.markdown(
